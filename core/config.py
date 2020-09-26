@@ -35,7 +35,7 @@ class Settings(BaseSettings):
     EMAILS_FROM_NAME: Optional[str] = None
 
     EMAIL_RESET_TOKEN_EXPIRE_HOURS: int = 48
-    EMAIL_TEMPLATES_DIR: str = "/email-templates/build"
+    EMAIL_TEMPLATES_DIR: str = "email-templates/build"
     EMAILS_ENABLED: bool = False
 
     # =============超级管理员================
