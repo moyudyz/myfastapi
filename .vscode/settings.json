@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "venv/bin/python",
+    "python.linting.pylintPath": "venv/bin/pylint",
+    "python.languageServer": "Jedi",
+    "python.linting.pylintArgs": [
+        "--errors-only",
+        "--extension-pkg-whitelist=pydantic"
+    ]
+}
